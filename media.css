@@ -1,0 +1,42 @@
+@media screen and (max-width: 721px) {
+    header .container nav ul{
+        display: none;
+        margin-left: 800px;
+    } 
+    header .container nav #menu{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 800px){
+           header .container .center{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    header .container .center .fortext{
+        width: 100%;
+    } 
+    header .container .center .forimg{
+        width: 100%;
+    } 
+    }
+@media screen and (max-width:1270px) {
+    section .container1 .fordiv{
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1270px) {
+    main .container3{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+@media screen and (max-width:1270px) {
+    footer .container3 .div1{
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+}
